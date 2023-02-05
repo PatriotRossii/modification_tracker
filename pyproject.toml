@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "modification-tracker"
+version = "0.1.0"
+description = ""
+authors = ["PatriotRossii <patriotrossii2019@mail.ru>"]
+license = "The Unlicense"
+readme = "README.md"
+packages = [{include = "modification_tracker"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = {extras = ["job-queue"], version = "^20.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
