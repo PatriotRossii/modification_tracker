@@ -10,6 +10,8 @@ packages = [{include = "modification_tracker"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 python-telegram-bot = {extras = ["job-queue"], version = "^20.0"}
+python-dotenv = "^0.21.1"
+requests = "^2.28.2"
 
 
 [build-system]
